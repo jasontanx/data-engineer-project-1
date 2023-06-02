@@ -1,0 +1,12 @@
+Notes
+
+Goals and objectives
+
+airports dataset
+1. data transformation
+--> include new data information (e.g. adding 'City population' / 'airport size' column)
+--> add timestamp as new column 
+
+airport-comments dataset
+1. data transformation
+--> add timestamp as new column 
