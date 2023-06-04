@@ -5,6 +5,7 @@ No. | Items | Date Updated
 1 | Repo Creation | 31 May 2023
 2 | Upload dataset relevant to the project | 31 May 2023
 3 | Design project data architecture | 01 June 2023
+4 | Develop BQ table with terraform  | 03 June 2023
 
 # Data Architecture 
 
