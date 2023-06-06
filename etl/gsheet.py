@@ -81,7 +81,7 @@ def load_gsheet(file_name):
         csv_data = file.read()
 
     # Create a new Google Sheet
-    sheet = client.create('busy_european_airport')
+    sheet = client.open('busy_european_airport')
 
     # Write the CSV data to the sheet
     worksheet = sheet.get_worksheet(0)  # write to the first worksheet
