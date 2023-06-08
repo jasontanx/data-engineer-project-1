@@ -8,6 +8,7 @@ No. | Items | Date Updated
 4 | Develop BQ table with terraform  | 03 June 2023
 5 | Update Github ETL script code | 05 June 2023
 6 | Update requirements.txt file | 06 June 2023
+7 | Create conda environment in local - experimentation | 08 June 2023
 
 # Data Architecture 
 
