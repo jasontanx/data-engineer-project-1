@@ -10,3 +10,11 @@ airports dataset
 airport-comments dataset
 1. data transformation
 --> add timestamp as new column 
+
+Conda + VS Code
+--> https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+--> https://code.visualstudio.com/docs/python/environments
+--> https://datumorphism.leima.is/til/programming/python/python-anaconda-install-requirements/
+--> https://linuxhint.com/conda-install-requirements-txt/
+ex: conda install pandas  
+--> https://stackoverflow.com/questions/51042589/conda-version-pip-install-r-requirements-txt-target-lib
