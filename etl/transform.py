@@ -1,6 +1,6 @@
 from geonamescache import GeonamesCache
-from datetime import date, datetime
-from load import load_bq
+from datetime import datetime
+from etl.load import load_bq
 
 
 def rename_data(df_2021):
