@@ -1,7 +1,7 @@
 from google.cloud import bigquery
 import logging
-from time import time
-from gsheet import query_data
+import time
+from etl.gsheet import query_data
 
 project_id = 'myfirstproject-364809'
 dataset_id = 'eu_busy_airport'
