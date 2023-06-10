@@ -10,7 +10,7 @@ def rename_data(df_2021):
 
     df_2021.rename(columns={
     'Airport': 'airport',
-    'city served': 'city_served',
+    'City served': 'city_served',
     'Country': 'country',
     'Passenger_2021': 'passenger_2021',
     'Passenger_2020': 'passenger_2020',
