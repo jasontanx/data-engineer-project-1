@@ -5,6 +5,8 @@ import logging
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
+key_path = "key.json" # secret key file of gcp
+
 def get_logging_format() -> logging.Logger:
     """
     function to return custom format logging
@@ -32,7 +34,7 @@ def query_data():
     date_fmt = datetime.now().strftime("%Y%m%d") + ".csv"
     file_name = "european_airport_busy" + date_fmt
 
-    bqclient = bigquery.Client.from_service_account_json('/Users/junshengtan/Desktop/personal_repo/github-to-bq/secret_key.json')
+    bqclient = bigquery.Client.from_service_account_json(key_path)
     
     job_config = bigquery.QueryJobConfig(allow_large_results=True)
 
@@ -85,7 +87,7 @@ def load_gsheet(file_name):
 
     # Write the CSV data to the sheet
     worksheet = sheet.get_worksheet(0)  # write to the first worksheet
-    worksheet.update('A1', [csv_data])
+    worksheet.update('A1', csv_data)
 
     print("Data uploaded to Google Sheet successfully...")
 
