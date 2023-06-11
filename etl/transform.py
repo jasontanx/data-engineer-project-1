@@ -42,4 +42,4 @@ def city_population(df_2021):
     
     df_2021['ingested_at'] = datetime.utcnow()
 
-    load_bq()
+    load_bq(df_2021)
