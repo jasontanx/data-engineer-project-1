@@ -18,3 +18,11 @@ Conda + VS Code
 --> https://linuxhint.com/conda-install-requirements-txt/
 ex: conda install pandas  
 --> https://stackoverflow.com/questions/51042589/conda-version-pip-install-r-requirements-txt-target-lib
+
+Reference on Issues Resolved
+1. TypeError: QueryJob._blocking_poll() got an unexpected keyword argument 'retry'
+- Resolved with --> https://stackoverflow.com/questions/74673148/bigquery-client-using-python-timeout-and-polling-issues
+- pip3 install google-cloud-bigquery==3.0.1
+
+2. gspread.exceptions.APIError: {'code': 400, 'message': 'Invalid value at \'data.values[0]\' (type.googleapis.com/google.protobuf.ListValue), 
+- gsheet.py changes made to --> worksheet.update('A1', csv_data)
