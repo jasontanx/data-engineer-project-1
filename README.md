@@ -10,6 +10,7 @@ No. | Items | Date Updated
 6 | Update requirements.txt file | 06 June 2023
 7 | Create conda environment in local - experimentation | 08 June 2023
 8 | Minor changes on ETL code due to code error | 11 June 2023
+9 | Minor ETL code changes - Error resolved | 12 June 2023
 
 # Data Architecture 
 
@@ -24,3 +25,7 @@ In summary, the following tools will be involved:
 4. Goolge Sheet --> Spreadsheet
 5. Looker Studio --> Visualisation & Business Intelligence tool 
 6. Python --> ETL code
+
+# Final Outcome
+Data ingested at GSheet below:
+https://docs.google.com/spreadsheets/d/1bTc2AKkWewiNziHm9L4RHIhepFIOvYJm6MVerFi6C0Y/edit#gid=0
