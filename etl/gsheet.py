@@ -80,7 +80,9 @@ def load_gsheet(file_name):
     #     csv_data = file.read()
 
     with open(file_name, 'r') as file:
-        csv_data = file.read()
+   #    csv_data = file.read()
+        csv_reader = csv.reader(file, delimiter=',')
+        csv_data = list(csv_reader)
 
     # Create a new Google Sheet
     sheet = client.open('busy_european_airport')
