@@ -12,10 +12,10 @@ def rename_data(df_2021):
     'Airport': 'airport',
     'City served': 'city_served',
     'Country': 'country',
-    'Passenger_2021': 'passenger_2021',
-    'Passenger_2020': 'passenger_2020',
-    'Change-2021–2020-Num': 'change_2021_2020',
-    'Change 2020-2019-%': 'change_percentage_2021_2020'
+    'Passengers-2021': 'passengers_2021',
+    'Passengers-2020': 'passengers_2020',
+    'Change 2021-2020-Num': 'change_2021_2020',
+    'Change 2021-2020-%': 'change_percentage_2021_2020'
 }, inplace=True)
     
     city_population(df_2021)
