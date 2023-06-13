@@ -29,3 +29,6 @@ In summary, the following tools will be involved:
 # Final Outcome
 Data ingested at GSheet below:
 https://docs.google.com/spreadsheets/d/1bTc2AKkWewiNziHm9L4RHIhepFIOvYJm6MVerFi6C0Y/edit#gid=0
+
+Data ingested at BigQuery:
+![de_bq_ss](https://github.com/jasontanx/data-engineer-project-1/assets/116934441/18afe1fb-dd34-44fa-ba85-22d688522c9b)
