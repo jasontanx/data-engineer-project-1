@@ -12,6 +12,7 @@ No. | Items | Date Updated
 8 | Minor changes on ETL code due to code error | 11 June 2023
 9 | Minor ETL code changes - Error resolved | 12 June 2023
 10 | Data successfully ingested into Google Sheet and BigQuery ✅ | 13 June 2023
+11 | Start exploring 2nd dataset (airport comment) - sentiment analysis | 15 June 2023
 
 # Data Architecture 
 
