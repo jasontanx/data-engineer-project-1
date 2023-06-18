@@ -1,5 +1,9 @@
 # data-engineer-project-1
 
+![git2](https://github.com/jasontanx/data-engineer-project-1/assets/116934441/2455a2dd-28e0-4308-b64b-e9a1a300b70e)
+
+# European Airport & Sentiment Data Engineering Project ✈️
+
 No. | Items | Date Updated 
 --- | --- | ---
 1 | Repo Creation | 31 May 2023
