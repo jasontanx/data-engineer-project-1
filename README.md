@@ -18,7 +18,8 @@ No. | Items | Date Updated
 10 | Data successfully ingested into Google Sheet and BigQuery ✅ | 13 June 2023
 11 | Start exploring 2nd dataset (airport comment) - sentiment analysis | 15 June 2023
 12 | Data pre-processing & develop sentiment analysis | 16 June 2023
-12 | Looker Studio chart exploration - Day 1 | 18 June 2023
+13 | Looker Studio chart exploration - Day 1 | 18 June 2023
+14 | Looker Studio chart exploration - Day 2 | 20 June 2023
 
 # Data Architecture 
 
