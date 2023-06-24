@@ -44,5 +44,10 @@ Data ingested at BigQuery:
 ![de_bq_ss](https://github.com/jasontanx/data-engineer-project-1/assets/116934441/18afe1fb-dd34-44fa-ba85-22d688522c9b)
 
 # Looker Studio
+European Airport 2021 - Dashboard
+
+<img width="899" alt="Screenshot 2023-06-24 at 3 20 30 PM" src="https://github.com/jasontanx/data-engineer-project-1/assets/116934441/f278bf1d-2e3b-4cd4-8ec1-a225451491ad">
+
+Source:
 https://lookerstudio.google.com/reporting/084b0972-c6fd-4d16-87df-5274e9cffc32
 
