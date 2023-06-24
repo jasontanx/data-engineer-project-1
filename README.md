@@ -20,7 +20,8 @@ No. | Items | Date Updated
 12 | Data pre-processing & develop sentiment analysis | 16 June 2023
 13 | Looker Studio chart exploration - Day 1 | 18 June 2023
 14 | Looker Studio chart exploration - Day 2 | 20 June 2023
-14 | Looker Studio chart exploration - Day 3 | 23 June 2023
+15 | Looker Studio chart exploration - Day 3 | 23 June 2023
+16 | Looker Studio chart complete  - Day 4 | 24 June 2023
 
 # Data Architecture 
 
