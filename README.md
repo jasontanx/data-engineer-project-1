@@ -44,4 +44,5 @@ Data ingested at BigQuery:
 ![de_bq_ss](https://github.com/jasontanx/data-engineer-project-1/assets/116934441/18afe1fb-dd34-44fa-ba85-22d688522c9b)
 
 # Looker Studio
+https://lookerstudio.google.com/reporting/084b0972-c6fd-4d16-87df-5274e9cffc32
 
