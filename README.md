@@ -22,6 +22,7 @@ No. | Items | Date Updated
 14 | Looker Studio chart exploration - Day 2 | 20 June 2023
 15 | Looker Studio chart exploration - Day 3 | 23 June 2023
 16 | Looker Studio chart complete  - Day 4 | 24 June 2023
+17 | Explore orchestration tools - Airflow | 26 June 2023
 
 # Data Architecture 
 
