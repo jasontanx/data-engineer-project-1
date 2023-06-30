@@ -50,6 +50,16 @@ European Airport 2021 - Dashboard
 
 <img width="899" alt="Screenshot 2023-06-24 at 3 20 30 PM" src="https://github.com/jasontanx/data-engineer-project-1/assets/116934441/f278bf1d-2e3b-4cd4-8ec1-a225451491ad">
 
+🌟Insights Generated🌟
+
+❇️ **32** European Countries and a total of **101** airports are involved in this dashboard
+
+❇️ There's an increase of **199k** passenger amount from the year 2020 to the year 2021
+
+❇️ **Moscow** has the highest passenger volume by **city** in the year 2021, followed by Paris and London
+
+❇️ **Country** wise, **Russia** has the highest passenger volume, followed by Spain and France
+
 Source:
 https://lookerstudio.google.com/reporting/084b0972-c6fd-4d16-87df-5274e9cffc32
 
