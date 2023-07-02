@@ -10,6 +10,8 @@ I want to know more about Mage-ai! 🪄
 
 ❇️ **Introduction to Mage-ai**: https://docs.mage.ai/introduction/overview
 
+❇️ **Mage-ai Github**: https://github.com/mage-ai/mage-ai
+
 **Set-up for Mac**
 1. Using Docker
 
