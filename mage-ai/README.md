@@ -31,8 +31,13 @@ docker run -it -p 6789:6789
 
 Open http://localhost:6789 in your browser and build a pipeline.
 
-**Source**: https://docs.mage.ai/getting-started/setup
+**Source**: 
+
+https://docs.mage.ai/getting-started/setup
+
+https://docs.mage.ai/production/ci-cd/local-cloud/repository-setup
 
 
 Data Loading into BigQuery
+
 https://docs.mage.ai/design/data-loading#bigquery
