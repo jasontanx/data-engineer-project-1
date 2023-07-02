@@ -23,7 +23,8 @@ No. | Items | Date Updated
 15 | Looker Studio chart exploration - Day 3 | 23 June 2023
 16 | Looker Studio chart complete  - Day 4 ✅ | 24 June 2023
 17 | Explore orchestration tools - Airflow | 26 June 2023
-18 | Explore orchestration tools - Mage.AI | 01 July 2023
+18 | Explore orchestration tools - Mage-ai | 01 July 2023
+18 | Update code - Mage-ai + created new repo | 02 July 2023
 
 # Data Architecture 
 
