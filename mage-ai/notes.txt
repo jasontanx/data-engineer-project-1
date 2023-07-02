@@ -1,0 +1,8 @@
+error enountered:
+Application Error: A Client-side Exception has Occurred when accessing Mage-ai via Safari
+
+Solution:
+Use Google Chrome to start Mage-ai 
+https://osxdaily.com/2023/04/18/fix-application-error-a-client-side-exception-has-occurred-in-safari/#:~:text=What%20does%20the%20%E2%80%9CApplication%20error,you%20are%20attempting%20to%20use.
+
+
