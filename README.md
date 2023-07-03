@@ -67,7 +67,13 @@ https://lookerstudio.google.com/reporting/084b0972-c6fd-4d16-87df-5274e9cffc32
 
 # Orchestration
 
-Airflow with Astronomer
+- Airflow with Astronomer
+
 https://docs.astronomer.io/learn/get-started-with-airflow 
+
 28/6/2023 - Experimented Airflow with Astronomer with newly developed dag.
+
+- Mage-ai
+
+https://docs.mage.ai/introduction/overview
 
