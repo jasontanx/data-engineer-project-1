@@ -33,9 +33,9 @@ Open http://localhost:6789 in your browser and build a pipeline.
 
 **Source**: 
 
-https://docs.mage.ai/getting-started/setup
+1. https://docs.mage.ai/getting-started/setup
 
-https://docs.mage.ai/production/ci-cd/local-cloud/repository-setup
+2. https://docs.mage.ai/production/ci-cd/local-cloud/repository-setup
 
 
 Data Loading into BigQuery
