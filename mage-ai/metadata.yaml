@@ -1,50 +1,82 @@
-project_type: standalone
-
-variables_dir: ~/.mage_data
-remote_variables_dir: s3://bucket/path_prefix
-
-variables_retention_period: '90d'
-
-emr_config:
-  # You can customize the EMR cluster instance size with the two parameters
-  master_instance_type: 'r5.4xlarge'
-  slave_instance_type: 'r5.4xlarge'
-
-  # Configure security groups for EMR cluster instances.
-  # The default managed security groups are ElasticMapReduce-master and ElasticMapReduce-slave
-  # master_security_group: 'sg-xxxxxxxxxxxx'
-  # slave_security_group: 'sg-yyyyyyyyyyyy'
-
-  # If you want to ssh tunnel into EMR cluster, ec2_key_name must be configured.
-  # You can create a key pair in page https://console.aws.amazon.com/ec2#KeyPairs and download the key file.
-  # ec2_key_name: '[ec2_key_pair_name]'
-
-spark_config:
-  # Application name
-  app_name: 'my spark app'
-  # Master URL to connect to
-  # e.g., spark_master: 'spark://host:port', or spark_master: 'yarn'
-  spark_master: 'local'
-  # Executor environment variables
-  # e.g., executor_env: {'PYTHONPATH': '/home/path'}
-  executor_env: {}
-  # Jar files to be uploaded to the cluster and added to the classpath
-  # e.g., spark_jars: ['/home/path/example1.jar']
-  spark_jars: []
-  # Path where Spark is installed on worker nodes,
-  # e.g. spark_home: '/usr/lib/spark'
-  spark_home:
-  # List of key-value pairs to be set in SparkConf
-  # e.g., others: {'spark.executor.memory': '4g', 'spark.executor.cores': '2'}
-  others: {}
-
-notification_config:
-  alert_on:
-  - trigger_failure
-  - trigger_passed_sla
-  slack_config:
-    webhook_url: "{{ env_var('MAGE_SLACK_WEBHOOK_URL') }}"
-  teams_config:
-    webhook_url: "{{ env_var('MAGE_TEAMS_WEBHOOK_URL') }}"
-project_uuid: 149d0996fedf4b29bfc939aacf12308b
-help_improve_mage: true
+blocks:
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - transform_rename
+  - bar_chart_for_export_1688213598694
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: export
+  retry_config: null
+  status: executed
+  type: data_loader
+  upstream_blocks: []
+  uuid: export
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - load_bq
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: transform_rename
+  retry_config: null
+  status: executed
+  type: transformer
+  upstream_blocks:
+  - export
+  uuid: transform_rename
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: load_bq
+  retry_config: null
+  status: executed
+  type: data_exporter
+  upstream_blocks:
+  - transform_rename
+  uuid: load_bq
+callbacks: []
+conditionals: []
+data_integration: null
+description: null
+executor_config: {}
+executor_count: 1
+executor_type: null
+extensions: {}
+name: polished thunder
+notification_config: {}
+spark_config: {}
+type: python
+updated_at: '2023-07-01 13:46:35'
+uuid: polished_thunder
+widgets:
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    chart_style: vertical
+    chart_type: bar chart
+    x: x
+    y: y
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: bar chart for export 1688213598694
+  retry_config: null
+  status: executed
+  type: chart
+  upstream_blocks:
+  - export
+  uuid: bar_chart_for_export_1688213598694
