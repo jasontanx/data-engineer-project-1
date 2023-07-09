@@ -19,6 +19,14 @@ Conda + VS Code
 ex: conda install pandas  
 --> https://stackoverflow.com/questions/51042589/conda-version-pip-install-r-requirements-txt-target-lib
 
+potential orchestration tools explored:
+1. Apache Airflow
+- Airflow with Astronomer
+
+https://docs.astronomer.io/learn/get-started-with-airflow 
+
+28/6/2023 - Experimented Airflow with Astronomer with newly developed dag.
+
 Reference on Issues Resolved
 1. TypeError: QueryJob._blocking_poll() got an unexpected keyword argument 'retry'
 - Resolved with --> https://stackoverflow.com/questions/74673148/bigquery-client-using-python-timeout-and-polling-issues
