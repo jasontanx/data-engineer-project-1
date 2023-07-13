@@ -45,6 +45,14 @@ Open http://localhost:6789 in your browser and build a pipeline.
 
 <img width="1077" alt="Screenshot 2023-07-01 at 8 03 33 PM" src="https://github.com/jasontanx/data-engineer-project-1/assets/116934441/2510fd20-10c0-4141-bfb5-67f48843ce74">
 
+**3. Pipeline Schedule - Scheduling pipeline to Run Daily**
+
+<img width="1104" alt="Screenshot 2023-07-01 at 8 06 37 PM" src="https://github.com/jasontanx/data-engineer-project-1/assets/116934441/b7c1ee41-f2f8-4859-bac3-aaa6fa225f7e">
+
+**4. Pipeline Status - Pipeline Run Successful**
+
+<img width="1505" alt="Screenshot 2023-07-01 at 8 13 58 PM" src="https://github.com/jasontanx/data-engineer-project-1/assets/116934441/6527a556-81c0-4657-b308-531dbe200923">
+
 **Source**: 
 
 1. https://docs.mage.ai/getting-started/setup
