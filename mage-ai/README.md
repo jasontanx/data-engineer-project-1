@@ -51,7 +51,7 @@ Open http://localhost:6789 in your browser and build a pipeline.
 
 **4. Pipeline Status - Pipeline Run Successful**
 
-<img width="1505" alt="Screenshot 2023-07-01 at 8 13 58 PM" src="https://github.com/jasontanx/data-engineer-project-1/assets/116934441/6527a556-81c0-4657-b308-531dbe200923">
+<img width="1511" alt="Screenshot 2023-07-01 at 8 10 42 PM" src="https://github.com/jasontanx/data-engineer-project-1/assets/116934441/342ab69f-d24f-4eab-a61d-558cc3057f90">
 
 **Source**: 
 
