@@ -60,6 +60,6 @@ Open http://localhost:6789 in your browser and build a pipeline.
 2. https://docs.mage.ai/production/ci-cd/local-cloud/repository-setup
 
 
-Data Loading into BigQuery
+**Documentation: Data Loading into BigQuery**
 
 https://docs.mage.ai/design/data-loading#bigquery
