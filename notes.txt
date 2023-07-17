@@ -23,6 +23,8 @@ potential orchestration tools explored:
 1. Apache Airflow
 - Airflow with Astronomer
 
+2. Mage.ai
+
 https://docs.astronomer.io/learn/get-started-with-airflow 
 
 28/6/2023 - Experimented Airflow with Astronomer with newly developed dag.
