@@ -26,6 +26,7 @@ No. | Items | Date Updated
 18 | Explore orchestration tools - Mage-ai | 01 July 2023
 19 | Update code - Mage-ai + created new repo | 02 July 2023
 20 | Update code - Mage-ai + ETL pipeline | 07 July 2023
+21 | Finalise all relevant code  | 19 July 2023
 
 # Data Architecture 
 
